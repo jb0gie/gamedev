@@ -82,6 +82,8 @@ const defaults = {
 }
 
 export class UI extends Node {
+  isUI = true
+
   constructor(data = {}) {
     super(data)
     this.name = 'ui'
